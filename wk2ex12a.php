@@ -5,11 +5,9 @@ $mymarks["year 3"] = 75;
 ?>
 
 <html>
-
 <head>
 <title>Data </title>
 </head>
-
 <body>
 
 <table border=1 align="center">

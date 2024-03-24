@@ -1,5 +1,5 @@
 <html>
-	<head>
+<head>
 <title>My Guestbook</title>
 </head>
 <body>
@@ -8,7 +8,6 @@
 <h2>Please write me a little note below</h2>
 
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
-
 <textarea cols=40 rows=5 name=note wrap=virtual></textarea>
 <input type=submit value=" Send it ">
 </form>
@@ -21,11 +20,12 @@
        fclose($fp);
     }
 ?>
+
 <h2>The entries so far:</h2>
 
 <?php
-
 @ReadFile("yourLogin.txt")
 ?>
+
 </body>
 </html>
