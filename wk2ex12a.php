@@ -11,6 +11,7 @@ $mymarks["year 3"] = 75;
 </head>
 
 <body>
+
 <table border=1 align="center">
 <tr><th>Year</th><th>Marks</th></tr> 
 
@@ -20,6 +21,5 @@ $mymarks["year 3"] = 75;
 }
 ?>
 </table>
-
 </body>
 </html>
