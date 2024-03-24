@@ -6,6 +6,8 @@
   $topmodules[4] = "Software Engineering";
   
 ?>
+
+<html>
 <head>
 <title>Data in table</title>
 </head>

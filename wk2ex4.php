@@ -1,9 +1,11 @@
 <! - - Speed camera advise script - ->
 
 <?php
+ // 13 point is assigned and will output the result based on the point.
+
   $points = 13;
- // Output appropriate message depending on points awarded.
- if ( $points >= 12) 
+
+  if ( $points >= 12) 
 {
    echo "Public transport is your best option. <br/>";
 }
